@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms-customer
+server:
+  port: 8890
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka/
+  instance:
+    hostname: localhost
+

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms-account
+server:
+  port: 9871
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka/
+  instance:
+    hostname: localhost
+
